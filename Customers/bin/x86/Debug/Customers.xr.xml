@@ -8,6 +8,8 @@
     <RootPropertyPathName Name="LastName" />
     <RootPropertyPathName Name="FirstName" />
     <RootPropertyPathName Name="CustomerID" />
+    <RootPropertyPathName Name="NextCustomer" />
+    <RootPropertyPathName Name="PrevoiusCustomer" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -23,6 +25,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Style" />
       <RootProperty Name="Content" />
+      <RootProperty Name="TopAppBar" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
       <RootProperty Name="Background" />
@@ -99,6 +102,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
+      <RootProperty Name="Path" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
       <RootProperty Name="EndPoint" />
@@ -118,6 +122,14 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
       <RootProperty Name="MinWindowWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="PrimaryCommands" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="Command" />
     </RootType>
     <RootType FullName="Customers.MainPage" />
   </Roots.RootTypes>

@@ -39,7 +39,7 @@ namespace Customers
         }
         public event EventHandler CanExecuteChanged;
 
-        void canExecuteChangedEventTimer_Tick(object sender, EventArgs e)
+        void canExecuteChangedEventTimer_Tick(object sender, object e)
         {
             if (this.CanExecuteChanged != null) 
             {
